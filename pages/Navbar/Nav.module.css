@@ -10,11 +10,10 @@
     /* border: 2px #fff solid; */
     display: flex;
     align-items: center;
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 0rem 1.5rem;
 }
 .input{
-    background: #18122D;
-    color:  #fff;
+    background: transparent;
     border: 1px solid #CDBDFF;
     padding: 1rem;
     padding-right: 3rem;
@@ -36,11 +35,11 @@
     list-style: none;
     padding-left: 1.5rem;
     font-weight: 600;
-    font-size: larger;
+    font-size: 20px;
 }
 .social{
     margin-left: auto;
-    margin-right: 2rem;
+    margin-right: 4rem;
     display: flex;
     align-items: center;
 }
