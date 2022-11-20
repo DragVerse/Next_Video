@@ -20,9 +20,9 @@ export default function Feed() {
             <li>More</li>
           </ul>
           <div className={styles.social}>
-            <Image src={message} alt='send message' width={30} height={30} className={styles.img}/>
-            <Image src={notification} alt='get notification' width={30} height={30} className={styles.img}/>
-            <Image src={stream} alt='start stream' width={26} height={24} className={styles.img}/>
+            <Image src={message} alt='send message' width={25} height={25} className={styles.img}/>
+            <Image src={notification} alt='get notification' width={26} height={25} className={styles.img}/>
+            <Image src={stream} alt='start stream' width={30} height={20} className={styles.img}/>
             <Image src={avatar} alt='profile' width={50} height={50} className={styles.img}/>
           </div>
         </div>
