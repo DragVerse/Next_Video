@@ -4,9 +4,9 @@ import avatar from '../assets/Avatar.jpg'
 import message from '../assets/Mail.jpg'
 import notification from '../assets/Notification.png'
 import stream from '../assets/stream.jpg'
-import styles from './nav.module.css'
+import styles from './Nav.module.css'
 
-export default function Feed() {
+export default function Navbar() {
     return(
       <div className={styles.build}>
         <div className={styles.content}>
