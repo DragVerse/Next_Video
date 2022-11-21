@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Post from './Posts'
 import Navbar from '../Navbar/nav'
 import styles from './Feed.module.css'
 import Profile from '../assets/profile.png'
@@ -7,7 +8,7 @@ import Burger from '../assets/Burger.png'
 import Star from '../assets/Star.png'
 import Settings from '../assets/settings.png'
 
-export default function feed() {
+export default function Feed() {
     return (
         <div className={styles.build}>
             <Navbar />
@@ -33,9 +34,9 @@ export default function feed() {
                                     <h3>Highlights</h3>
                                 </button>
                             </div>
-                            <Image src={Settings} alt='settings' height={20} width={20} />
+                            <Image src={Settings} alt='settings' height={18} width={20} />
                         </div>
-
+                        <Post />
                     </div>
                     <div className={styles.container2}>
 
