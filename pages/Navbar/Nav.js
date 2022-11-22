@@ -17,7 +17,7 @@ export default function Navbar() {
     <div className={styles.build}>
       <div className={styles.content}>
         <div className={styles.navbar}>
-          <logo><Image src={logo} alt='logo' width={100} height={100} /></logo>
+          <main><Image src={logo} alt='logo' width={100} height={100} /></main>
           <input placeholder='Search...' className={styles.input} />
           <ul className={styles.ul}>
             <li>About</li>

@@ -34,10 +34,10 @@ export default function Connect() {
                     <span className={styles.user}>
                     <Image src={Profile2} alt='' height={40} width={40}/>
                         <div className={styles.names}>
-                            <h4 className={styles.name}>RuPaul 🪄
+                            <div className={styles.name}>RuPaul 🪄
                             <Image src={verified} alt='' width={15} height={15}/>
                             <h4 className={styles.subject}>Listening to space music</h4>
-                            </h4>
+                            </div>
                             <h6 className={styles.username}>@rupaul.lens</h6>
                         </div>
                     </span>
