@@ -11,6 +11,7 @@ import BetaCup from '../assets/BetaCup.png'
 import ArrowRight from '../assets/Arrow right.png'
 import Stream from '../assets/streampurple.png'
 import Location from '../assets/location.png'
+import Connect from '../Connect/Connect'
 
 export default function Feed() {
     return (
@@ -70,6 +71,8 @@ export default function Feed() {
                                 <Image src={ArrowRight} alt='' height={24} width={24}/>
                             </button>
                         </div>
+
+                        <Connect />
                     </div>
                 </div>
             </div>

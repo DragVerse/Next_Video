@@ -20,6 +20,7 @@
     padding-right: 3rem;
     border-radius: 50px;
     margin-left: 1rem;
+    outline: none;
 }
 .input::placeholder{
     color: #CDBDFF;
