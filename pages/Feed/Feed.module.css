@@ -14,8 +14,8 @@
   margin-top: 1rem;
 }
 .container {
-  /* border: 2px solid #fff; */
-  margin: 0 3rem 0 3rem;
+  border: 2px solid #fff;
+  margin: 0 5rem 0 3rem;
   /* height: 100vh; */
   display: flex;
   flex-direction: row;
@@ -28,7 +28,9 @@
 }
 .container2 {
   /* border: 2px solid rgb(7, 31, 241); */
-  width: 33%;
+  width: 32%;
+  margin-top: 1.5rem;
+  border: 2px solid rebeccapurple;
 }
 .search {
   background: #18122d;
@@ -150,8 +152,8 @@
 .post {
   border-bottom: 1px solid rgba(205, 189, 255, 0.5);
 }
-.post:last-child{
-    border: none;
+.post:last-child {
+  border: none;
 }
 
 .post main {
@@ -251,3 +253,140 @@
   list-style: none;
   /* border: 2px solid red; */
 }
+.container2 {
+}
+.card1 {
+  height: 141px;
+  background: rgba(255, 236, 22, 0.3);
+  border: 1px solid #ffec16;
+  border-radius: 12px;
+  padding: 0 1.5rem 0 1.5rem;
+}
+.card1 h2 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #ffec16;
+  width: fit-content;
+  gap: 0.6rem;
+}
+
+.card1 p {
+  border: 2px solid #fff;
+  width: 89%;
+  margin-top: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #ffec16;
+}
+.container2 h3 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #cdbdff;
+  margin: 1.5rem 0rem 1rem 0.5rem;
+}
+
+.card2 {
+  background: rgba(231, 72, 230, 0.25);
+  border: 1px solid #e748e6;
+  border-radius: 12px;
+  padding: 0 1.5rem 0 1.5rem;
+  height: 150px;
+}
+.card2 button {
+  background: transparent;
+  border: none;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  /* border: 2px solid #cdbdff; */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #e748e6;
+}
+.card2 h2 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #e748e6;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 10px;
+}
+
+.card2 p {
+  /* border: 2px solid #fff; */
+  width: 90%;
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #f0b5f0;
+}
+
+
+
+.card3 {
+    background: rgba(231, 72, 230, 0.25);
+    border: 1px solid #e748e6;
+    border-radius: 12px;
+    padding: 0 1.5rem 0 1.5rem;
+    height: 100px;
+    margin-top: 1rem;
+  }
+  .card3 button {
+    background: transparent;
+    border: none;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* border: 2px solid #cdbdff; */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  
+    color: #e748e6;
+  }
+  .card3 h2 {
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #e748e6;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 10px;
+  }

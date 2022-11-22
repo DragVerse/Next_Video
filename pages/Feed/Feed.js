@@ -7,6 +7,10 @@ import Edit from '../assets/Edit.png'
 import Burger from '../assets/Burger.png'
 import Star from '../assets/Star.png'
 import Settings from '../assets/settings.png'
+import BetaCup from '../assets/BetaCup.png'
+import ArrowRight from '../assets/Arrow right.png'
+import Stream from '../assets/streampurple.png'
+import Location from '../assets/location.png'
 
 export default function Feed() {
     return (
@@ -39,7 +43,33 @@ export default function Feed() {
                         <Post />
                     </div>
                     <div className={styles.container2}>
+                        <div className={styles.card1}>
+                            <h2>
+                                <Image src={BetaCup} alt='' width={20} height={20} className={styles.streamImg}/>
+                                Beta warning!</h2>
+                            <p>The dragverse is still in the beta phase, things may break, please be patience as we build the best drag social network.</p>
+                        </div>
 
+                        <h3>Start Here</h3>
+
+                        <div className={styles.card2}>
+                            <h2>
+                                <Image src={Stream} alt='' width={30} height={20} />
+                                GO LIVE</h2>
+                            <p>Ready to share your drag magic with the world? Star livestreaming now! 💄</p>
+                            <button>GO LIVE
+                                <Image src={ArrowRight} alt='' height={24} width={24}/>
+                            </button>
+                        </div>
+
+                        <div className={styles.card3}>
+                            <h2>
+                                <Image src={Location} alt='' width={14} height={20} />
+                                VISIT DRAGVERSE</h2>
+                            <button>EXPLORE OUR SPATIAL SPACE
+                                <Image src={ArrowRight} alt='' height={24} width={24}/>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
