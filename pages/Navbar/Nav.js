@@ -23,12 +23,10 @@ export default function Navbar() {
             <Image src={message} alt='send message' width={25} height={25} className={styles.img}/>
             <Image src={notification} alt='get notification' width={26} height={25} className={styles.img}/>
             <Image src={stream} alt='start stream' width={30} height={20} className={styles.img}/>
-            <Image src={avatar} alt='profile' width={50} height={50} className={styles.img}/>
+            <Image src={avatar} alt='profile' width={40} height={40} className={styles.img}/>
           </div>
         </div>
         </div>
       </div>
     ) 
   }
-
-  

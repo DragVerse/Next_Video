@@ -1,0 +1,122 @@
+.bigBox {
+  border: 1px solid rgba(205, 189, 255, 0.5);
+  border-radius: 10px;
+  height: fit-content;
+}
+.box {
+  /* background: #18122d; */
+  height: fit-content;
+  padding: 0.3rem 2rem 0rem 1rem;
+}
+.smallbox {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid #fff; */
+  padding: 0.2rem 0rem 0.2rem 0rem;
+  margin: 1rem 0 1rem 0;
+  cursor: pointer;
+}
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid rebeccapurple; */
+  margin-left: 0.3rem;
+  gap: 12px;
+}
+.name,
+.username,
+.subject {
+  margin: 0;
+  padding: 0;
+}
+.name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  color: #f7f5f2;
+}
+.subject {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+
+  display: flex;
+  align-items: center;
+
+  color: #cdbdff;
+}
+.username {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+
+  color: #f0b5f0;
+}
+
+.show {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid rgba(205, 189, 255, 0.5);
+  border-right: 1px solid rgba(205, 189, 255, 0.5);
+  border-left: 1px solid rgba(205, 189, 255, 0.5);
+  height: 3rem;
+  margin: 0;
+  padding: 0 0rem 0 1.5rem;
+  cursor: pointer;
+}
+.show h5 {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #cdbdff;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  cursor: pointer;
+  /* border: 2px solid rebeccapurple; */
+}
+.socials h5 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 28px;
+
+  color: #e748e6;
+}
+
+.socials li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 28px;
+  list-style: none;
+  display: grid;
+  align-items: center;
+  padding-left: 0.5rem;
+
+  color: #cdbdff;
+}
