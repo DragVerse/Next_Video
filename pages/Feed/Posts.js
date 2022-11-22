@@ -81,7 +81,7 @@ export default function Post() {
 
                                 Comment below with any videos you'd like me to make!
 
-                                <iframe className={styles.video} width="560" height="305" src="https://www.youtube.com/embed/jwmS1gc9S5A?start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe className={styles.video} width="560" height="305" src="https://www.youtube.com/embed/jwmS1gc9S5A?start=15" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                 
                             </span>
                             <div className={styles.react}>

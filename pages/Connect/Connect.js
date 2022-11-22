@@ -8,7 +8,7 @@ import Profile5 from '../assets/profile7.png'
 import Follow from '../assets/Follow.png'
 import UnFollow from '../assets/unfollow.png'
 import verified from '../assets/verified.png'
-import showmore from '../assets/Showmore.png'
+import showmore from '../assets/showmore.svg'
 
 export default function Connect() {
     return (
@@ -34,10 +34,10 @@ export default function Connect() {
                     <span className={styles.user}>
                     <Image src={Profile2} alt='' height={40} width={40}/>
                         <div className={styles.names}>
-                            <h4 className={styles.name}>RuPaul 🪄
+                            <div className={styles.name}>RuPaul 🪄
                             <Image src={verified} alt='' width={15} height={15}/>
                             <h4 className={styles.subject}>Listening to space music</h4>
-                            </h4>
+                            </div>
                             <h6 className={styles.username}>@rupaul.lens</h6>
                         </div>
                     </span>
@@ -64,7 +64,6 @@ export default function Connect() {
                     <Image src={Profile4} alt='' height={40} width={40}/>
                         <div className={styles.names}>
                             <h4 className={styles.name}>VisualFire.eth
-                            <Image src={verified} alt='' width={15} height={15}/>
                             </h4>
                             <h6 className={styles.username}>@visualfire.lens</h6>
                         </div>
