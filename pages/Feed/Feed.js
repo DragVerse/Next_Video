@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Post from './Posts'
-import Navbar from '../Navbar/nav'
+import Navbar from '../Navbar/Nav'
 import styles from './Feed.module.css'
 import Profile from '../assets/profile.png'
 import Edit from '../assets/Edit.png'
