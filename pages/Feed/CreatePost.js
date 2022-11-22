@@ -11,6 +11,7 @@ import AddPhoto from '../assets/AddPhoto.svg'
 import Write from '../assets/Edit.svg'
 import { useState } from 'react'
 
+
 export default function CreatePost() {
     const [show, setShow] = useState(true)
 
