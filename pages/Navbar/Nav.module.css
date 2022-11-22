@@ -1,51 +1,73 @@
-.build{
-    width: 100%;
-    min-height: 20vh;
-    min-width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@528&display=swap");
+.build {
+  width: 100%;
+  min-height: 20vh;
+  min-width: 100%;
 }
-.content{
+.content {
+}
+.navbar {
+  /* border: 2px #fff solid; */
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem 0rem 1rem;
+  color: #fff;
+}
+.input {
+  background: #18122d;
+  color: #fff;
+  border: 1px solid #cdbdff;
+  padding: 0.8rem 3rem 0.8rem 1rem;
+  border-radius: 50px;
+  margin-left: 1rem;
+  outline: none;
 
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.9602px;
+  line-height: 150%;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
 }
-.navbar{
-    /* border: 2px #fff solid; */
-    display: flex;
-    align-items: center;
-    padding: 1rem 1rem 0rem 1rem;
+.input::placeholder {
+  color: #cdbdff;
+  opacity: 1;
 }
-.input{
-    background: #18122D;
-    color:  #fff;
-    border: 1px solid #CDBDFF;
-    padding: 1rem;
-    padding-right: 3rem;
-    border-radius: 50px;
-    margin-left: 1rem;
-    outline: none;
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
-.input::placeholder{
-    color: #CDBDFF;
-    opacity: 1;
+.ul li {
+  list-style: none;
+  padding-left: 1.5rem;
+  font-weight: 600;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
-.ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+.social {
+  margin-left: auto;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
 }
-.ul li{
-    list-style: none;
-    padding-left: 1.5rem;
-    font-weight: 600;
-    font-size: larger;
-}
-.social{
-    margin-left: auto;
-    margin-right: 2rem;
-    display: flex;
-    align-items: center;
-}
-.social .img{
-    margin-right: 1.4rem;
-    cursor: pointer;
+.social .img {
+  margin-right: 1.4rem;
+  cursor: pointer;
 }

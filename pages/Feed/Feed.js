@@ -5,12 +5,14 @@ import styles from './Feed.module.css'
 import Profile from '../assets/profile.png'
 import Edit from '../assets/Edit.png'
 import Burger from '../assets/Burger.png'
-import Star from '../assets/Star.png'
-import Settings from '../assets/settings.png'
-import BetaCup from '../assets/BetaCup.png'
-import ArrowRight from '../assets/Arrow right.png'
-import Stream from '../assets/streampurple.png'
-import Location from '../assets/location.png'
+import Star from '../assets/Star.svg'
+// import Settings from '../assets/settings.png'
+// import BetaCup from '../assets/BetaCup.png'
+import Settings from '../assets/Slider.svg'
+import BetaCup from '../assets/bottle.svg'
+import ArrowRight from '../assets/Arrow right.svg'
+import Stream from '../assets/streampurple.svg'
+import Location from '../assets/Location.svg'
 import Connect from '../Connect/Connect'
 
 export default function Feed() {
@@ -39,19 +41,19 @@ export default function Feed() {
                                     <h3>Highlights</h3>
                                 </button>
                             </div>
-                            <Image src={Settings} alt='settings' height={18} width={20} />
+                            <Image src={Settings} alt='settings' height={25} width={25} />
                         </div>
                         <Post />
                     </div>
                     <div className={styles.container2}>
                         <div className={styles.card1}>
                             <h2>
-                                <Image src={BetaCup} alt='' width={20} height={20} className={styles.streamImg}/>
+                                <Image src={BetaCup} alt='' width={20} height={25} className={styles.streamImg}/>
                                 Beta warning!</h2>
                             <p>The dragverse is still in the beta phase, things may break, please be patience as we build the best drag social network.</p>
                         </div>
 
-                        <h3>Start Here</h3>
+                        <h3>START HERE</h3>
 
                         <div className={styles.card2}>
                             <h2>
@@ -65,7 +67,7 @@ export default function Feed() {
 
                         <div className={styles.card3}>
                             <h2>
-                                <Image src={Location} alt='' width={14} height={20} />
+                                <Image src={Location} alt='' width={30} height={20} />
                                 VISIT DRAGVERSE</h2>
                             <button>EXPLORE OUR SPATIAL SPACE
                                 <Image src={ArrowRight} alt='' height={24} width={24}/>

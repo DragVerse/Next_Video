@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500;600&display=swap');
+
 .bigBox {
   border: 1px solid rgba(205, 189, 255, 0.5);
   border-radius: 10px;
@@ -72,8 +74,6 @@
   align-items: center;
   gap: 10px;
   border-top: 1px solid rgba(205, 189, 255, 0.5);
-  border-right: 1px solid rgba(205, 189, 255, 0.5);
-  border-left: 1px solid rgba(205, 189, 255, 0.5);
   height: 3rem;
   margin: 0;
   padding: 0 0rem 0 1.5rem;
@@ -95,7 +95,9 @@
   flex-wrap: wrap;
   position: relative;
   cursor: pointer;
-  /* border: 2px solid rebeccapurple; */
+  width: 22rem;
+  margin-left: 10px;
+  margin-top: 1rem;
 }
 .socials h5 {
   font-family: "Syne";
@@ -103,8 +105,9 @@
   font-weight: 700;
   font-size: 11px;
   line-height: 28px;
-
   color: #e748e6;
+  padding: 0;
+  margin: 0;
 }
 
 .socials li {
@@ -116,7 +119,10 @@
   list-style: none;
   display: grid;
   align-items: center;
-  padding-left: 0.5rem;
-
+  margin: 0;
+  padding: 0 0 0 0.7rem;
   color: #cdbdff;
+}
+.socials li:nth-child(7){
+  padding: 0;
 }
