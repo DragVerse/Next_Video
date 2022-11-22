@@ -5,6 +5,7 @@ import message from '../assets/Mail.jpg'
 import notification from '../assets/Notification.png'
 import stream from '../assets/stream.jpg'
 import styles from './Nav.module.css'
+import Userdropdown from '../Feed/Userdropdown'
 
 export default function Navbar() {
     return(
@@ -26,6 +27,7 @@ export default function Navbar() {
             <Image src={avatar} alt='profile' width={40} height={40} className={styles.img}/>
           </div>
         </div>
+          <Userdropdown />
         </div>
       </div>
     ) 

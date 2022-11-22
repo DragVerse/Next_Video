@@ -3,7 +3,7 @@ import Post from './Posts'
 import Navbar from '../Navbar/Nav'
 import styles from './Feed.module.css'
 import Profile from '../assets/profile.png'
-import Edit from '../assets/Edit.png'
+import Write from '../assets/Write.png'
 import Burger from '../assets/Burger.png'
 import Star from '../assets/Star.svg'
 // import Settings from '../assets/settings.png'
@@ -14,8 +14,15 @@ import ArrowRight from '../assets/Arrow right.svg'
 import Stream from '../assets/streampurple.svg'
 import Location from '../assets/Location.svg'
 import Connect from '../Connect/Connect'
+import CreatePost from './CreatePost'
+import { useState } from 'react'
 
 export default function Feed() {
+    const [show, setShow] = useState(false)
+    
+    const handleShow = () => {
+        setShow(!show)
+    }
     return (
         <div className={styles.build}>
             <Navbar />
@@ -27,9 +34,10 @@ export default function Feed() {
                                 <Image src={Profile} alt='profile' width={40} height={40} />
                                 <input type='create-post' placeholder="What’s the tea?" className={styles.input} />
                             </div>
-                            <Image src={Edit} alt='Edit' width={23} height={23} />
+                            <Image src={Write} alt='Edit' width={23} height={23} onClick={handleShow}/>
 
                         </div>
+                        {show ?   <CreatePost /> : null}
                         <div className={styles.widget}>
                             <div className={styles.widget1}>
                                 <button className={styles.button1}>

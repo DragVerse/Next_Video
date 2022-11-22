@@ -5,6 +5,8 @@
   min-width: 100%;
 }
 .content {
+  display: flex;
+  flex-direction: column;
 }
 .navbar {
   /* border: 2px #fff solid; */
@@ -21,7 +23,6 @@
   border-radius: 50px;
   margin-left: 1rem;
   outline: none;
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
