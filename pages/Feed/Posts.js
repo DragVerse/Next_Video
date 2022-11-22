@@ -8,6 +8,7 @@ import Heart from '../assets/heart.png'
 import Brower from '../assets/brower.png'
 import Menu from '../assets/menu.png'
 
+
 export default function Post() {
     return (
         <div className={styles.build2}>
@@ -41,6 +42,11 @@ export default function Post() {
                     </div>
 
                     <div className={styles.post}>
+                                    <span className={styles.spanNot}>
+                                        <Image src={Transimit} alt='' width={16} height={16}/>
+                                    <h4>Nathan P Van Assen </h4>
+                                    <h5>mirrored the post</h5>
+                                    </span>
                         <main>
                             <div>
                                 <Image src={Profile} alt='profile' width={40} height={40} />
