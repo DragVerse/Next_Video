@@ -33,10 +33,10 @@ export default function Navbar() {
           </div>
         </div>
         {show ? <Userdropdown /> : null }
-        <div
+        {/* <div
           className={styles.toggle}
           onClick={toggling}
-        ></div>
+        ></div> */}
       </div>
     </div>
   )

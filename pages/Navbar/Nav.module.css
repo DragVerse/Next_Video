@@ -75,10 +75,9 @@
 .toggle{
   /* w-[100vw] h-[100vh] fixed top-0 left-0 !z-[50] cursor-default  */
   width: 100vw;
-  height: 100vh;
+  height: 20vh;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 50;
-  cursor: default;
 }
